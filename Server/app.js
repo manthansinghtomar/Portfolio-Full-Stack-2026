@@ -19,7 +19,7 @@ connectDB();
 // middleware
 app.use(cookieParser());
 app.use(cors({
-    origin: "http://localhost:5173",// client site url
+    origin: "https://portfolio-full-stack-2026.netlify.app",// client site url
     credentials: true,          // to allow cookies from client
 }));
 
